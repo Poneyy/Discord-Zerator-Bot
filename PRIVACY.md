@@ -24,12 +24,10 @@ Le bot est développé et opéré par l'équipe technique bénévole du Discord 
 |---|---|---|
 | **Identifiants Discord** (ID utilisateur, ID serveur, ID salon, ID message) | Faire fonctionner les rôles, sanctions et rappels | Base locale |
 | **Historique des noms d'utilisateur** (20 max/personne) | Permettre aux modérateurs d'identifier une personne qui change de pseudo pour contourner une sanction | Base locale |
-| **Historique des surnoms de serveur** (20 max/personne) | Idem | Base locale |
+| **Historique des surnoms de serveur** (20 max/personne) | Permettre aux modérateurs d'identifier une personne qui change de pseudo pour contourner une sanction | Base locale |
 | **Date de fin de bannissement temporaire** | Lever automatiquement les bannissements à échéance | Base locale |
 | **Liste temporaire des nouveaux arrivants** (IDs) | File d'attente pour l'attribution automatique du rôle « Membre » après 25 min | Base locale |
-| **Pseudos des comptes exclus automatiquement** (500 max, dé-doublonnés) | Détecter les vagues de faux comptes/raids en repérant les pseudos similaires | Base locale |
-| **Gagnants de tirages au sort** (IDs) | Éviter qu'une même personne regagne un giveaway | Base locale |
-| **Rappels personnels** (ID + texte que **vous** avez saisi + heure) | Vous envoyer votre rappel quotidien en message privé | Base locale |
+| **Pseudos des comptes exclus automatiquement** (500 max, dé-doublonnés) | Détecter les vagues de faux comptes/raids | Base locale |
 | **Listes MyAnimeList / configurations PC** (pseudo + lien) | Listes communautaires, **ajoutées uniquement par le staff** à la demande des membres | Base locale |
 
 ### 2.2 Contenu des messages — traitement **transitoire**
@@ -51,7 +49,7 @@ Le contenu des messages n'est **jamais enregistré dans notre base de données**
 
 ### 2.4 Journaux techniques
 
-Les journaux applicatifs du bot (utilisés pour le diagnostic d'incidents) peuvent contenir des identifiants et pseudos Discord, ainsi que les actions de modération effectuées. Ils **ne contiennent pas le contenu des messages**. Ces journaux sont **internes**, à accès restreint, et purgés dans le cadre de la rotation normale des logs.
+Les journaux applicatifs du bot (utilisés pour le diagnostic d'incidents) peuvent contenir des identifiants et pseudos Discord, ainsi que les actions de modération effectuées. Ils **ne contiennent pas le contenu des messages**. Ces journaux sont **internes**, à accès restreint, et purgés dans le cadre de la rotation normale des logs (30j).
 
 ---
 
