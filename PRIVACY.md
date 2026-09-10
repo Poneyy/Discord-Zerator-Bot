@@ -10,9 +10,9 @@ Cette politique explique quelles données le bot Discord **Era** (ID d'applicati
 
 ## 1. Qui est responsable du traitement ?
 
-Le bot est développé et opéré par l'équipe technique bénévole du Discord ZeratoR (« nous »). Il tourne sur une **infrastructure privée dédiée** (cluster Kubernetes), sous notre seul contrôle. Aucune donnée n'est vendue, louée, ni transmise à des annonceurs ou à des tiers commerciaux.
+Le bot est développé et opéré par l'équipe technique bénévole du Discord ZeratoR (« Modérateurs »). Il tourne sur une **infrastructure privée dédiée**, sous notre seul contrôle. Aucune donnée n'est vendue, louée, ni transmise à des annonceurs ou à des tiers commerciaux.
 
-**Contact :** pour toute question ou demande relative à vos données, utilisez la commande **`!contact`** suivie de votre message, depuis n'importe quel salon du serveur (exemple : `!contact Je souhaite la suppression de mes données`). Votre message est transmis directement à l'équipe technique du bot.
+**Contact :** pour toute question ou demande relative à vos données, utilisez la commande **`!contact`** suivie de votre message, depuis n'importe quel salon du serveur (exemple : `!contact Je souhaite la suppression de mes données`). Ou directement en message privé aux modérateurs.
 
 ---
 
